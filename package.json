@@ -1,0 +1,14 @@
+{
+  "name": "node-study",
+  "version": "1.0.0",
+  "description": "Node.js 백엔드 구축",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cheomuk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
