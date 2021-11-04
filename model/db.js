@@ -20,7 +20,7 @@ var db = {};
 // 테이블 정보가 담긴 객체를 이용하여 데이터 조회,생성,변경,삭제가 가능하다.
 db.users = sequelize.import(__dirname + "/users.js");
 // __dirname은 상대주소를 뜻한다.
-db.practice = sequelize.import(__dirname + "/practice.js");
+db.reviews = sequelize.import(__dirname + "/reviews.js");
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;

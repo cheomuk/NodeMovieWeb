@@ -9,7 +9,7 @@ app.set('views', './views');    // views 폴더를 찾아 지정한다.
 app.use('/public', express.static(__dirname + '/public'));
 // public이라는 이름의 디렉토리에 포함된 정적인 이미지, CSS 파일 및 JavaScript 파일을 제공함.
 
-app.use(helmet());
+// app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded());
 
