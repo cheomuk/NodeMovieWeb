@@ -1,4 +1,4 @@
-# Node.js 서버 연습용
+# Node 영화 리뷰 사이트
 
 ## 개발 환경
 - VSCode, Postman, MySQL
